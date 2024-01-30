@@ -2,58 +2,28 @@
 
 ## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Selamat datang di PT Bravo Creative Works, sebuah perusahaan yang berkomitmen penuh untuk menghadirkan solusi kreatif dan inovatif di dunia digital. Didirikan dengan semangat kreativitas yang tak terbatas, kami berfokus pada empat layanan utama: pengembangan website, desain grafis, editing video, fotografi dan videografi, serta jasa joki tugas.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Di PT Bravo Creative Works, kami tidak hanya mengerjakan proyek, tapi kami menciptakan karya yang memiliki nilai. Kepuasan klien adalah prioritas kami, dan kami berkomitmen untuk selalu memberikan hasil terbaik. Mari wujudkan ide kreatif Anda bersama kami!
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [Website Developer](https://wa.me/p/7253173724725577/62895340452152).
+- [Graphic Desainer](https://wa.me/p/6960883113998491/62895340452152).
+- [Video Editing](https://wa.me/p/6827064277341934/62895340452152).
+- [Joki Tugas](https://wa.me/p/25365657836366910/62895340452152).
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## About This Project
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Sistem Informasi Inventaris Sekolah
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Proyek ini merupakan pengembangan website sistem informasi inventaris sekolah yang dirancang untuk meningkatkan efisiensi dan akurasi dalam pengelolaan aset sekolah. Website ini dilengkapi dengan berbagai fitur canggih dan mudah digunakan, yang dirancang khusus untuk memenuhi kebutuhan manajemen inventaris sekolah.
 
-## Laravel Sponsors
+Fitur utama dari sistem ini adalah login multi user yang terdiri dari dua level akses, yaitu AdminSuper dan Admin. AdminSuper memiliki hak akses penuh untuk mengelola seluruh aspek sistem, termasuk pembuatan akun admin baru. Sementara itu, Admin dapat mengakses fungsionalitas dasar sistem untuk pengelolaan inventaris harian.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Sistem ini juga dilengkapi dengan fitur print data inventaris, yang memudahkan pengguna dalam mencetak informasi terkait aset sekolah, seperti jumlah, kondisi, dan lokasi aset. Fitur print data peminjaman juga tersedia untuk memfasilitasi pencetakan detail peminjaman aset oleh siswa atau staf sekolah, memastikan semua transaksi terdokumentasi dengan baik.
 
-### Premium Partners
+Selain itu, sistem ini menawarkan fitur pembuatan akun admin oleh AdminSuper. Fitur ini memungkinkan AdminSuper untuk menambah atau mengelola akun admin lainnya, sehingga memudahkan delegasi tugas dan pengelolaan sistem secara keseluruhan.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Fitur perubahan password user juga hadir untuk meningkatkan keamanan data. Pengguna dapat dengan mudah mengubah kata sandi mereka untuk menjaga keamanan akun dan melindungi informasi sensitif.
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Dengan desain yang intuitif dan antarmuka pengguna yang ramah, sistem informasi inventaris sekolah ini tidak hanya meningkatkan efektivitas pengelolaan aset sekolah, tetapi juga memberikan kemudahan dan keamanan bagi para penggunanya. Proyek ini mencerminkan komitmen kami untuk menyediakan solusi teknologi yang praktis dan inovatif dalam dunia pendidikan.
