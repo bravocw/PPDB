@@ -1,39 +1,4 @@
-<p align="center"><a href="https://wa.me/p/7253173724725577/62895340452152" target="_blank"><img src="https://raw.githubusercontent.com/adityamahendrraa/mulaiberusaha.github.io/036c7985e0663158276084e320c9cca6fe08fc66/LOGO%20SAMPING.png" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
-   <?php $i++; ?>
-
-   <td>              
-                {{-- @if ($item->status == 'MENUNGGU') --}}
-                                <form method="post" class="d-inline-block" action="{{ route('peserta-diterima', $item->id) }}">
-                                    @method('PATCH')
-                                    @csrf
-                                    <button type="submit" class="btn btn-success mr-2">
-                                        TERIMA
-                                    </button>
-                                </form>
-                                <form method="post" class="d-inline-block" action="{{ route('peserta-ditolak', $item->id) }}">
-                                    @method('PATCH')
-                                    @csrf
-                                    <button type="submit" class="btn btn-danger mr-2">
-                                        TOLAK
-                                    </button>
-                                </form>                                
-                            {{-- @else --}}
-                                <button class="btn btn-success mr-2" disabled>
-                                    TERIMA
-                                </button>
-                                <button class="btn btn-danger mr-2" disabled>
-                                    TOLAK
-                                </button>
-                            {{-- @endif --}}
-                        </td>
+<p align="center"><a href="https://wa.me/p/7253173724725577/62895340452152" target="_blank"><img src="https://raw.githubusercontent.com/adityamahendrraa/mulaiberusaha.github.io/036c7985e0663158276084e320c9cca6fe08fc66/LOGO%20SAMPING.png" width="400" alt="BCW Logo"></a></p>
 
 ## About Laravel
 
