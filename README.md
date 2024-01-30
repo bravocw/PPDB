@@ -1,6 +1,6 @@
 <p align="center"><a href="https://wa.me/p/7253173724725577/62895340452152" target="_blank"><img src="https://raw.githubusercontent.com/adityamahendrraa/mulaiberusaha.github.io/036c7985e0663158276084e320c9cca6fe08fc66/LOGO%20SAMPING.png" width="400" alt="BCW Logo"></a></p>
 
-## About Laravel
+## About PT. BRAVO CREATIVE WORKS
 
 Selamat datang di PT Bravo Creative Works, sebuah perusahaan yang berkomitmen penuh untuk menghadirkan solusi kreatif dan inovatif di dunia digital. Didirikan dengan semangat kreativitas yang tak terbatas, kami berfokus pada empat layanan utama: pengembangan website, desain grafis, editing video, fotografi dan videografi, serta jasa joki tugas.
 
