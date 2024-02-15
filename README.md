@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 <p align="center"><a href="https://wa.me/p/7253173724725577/62895340452152" target="_blank"><img src="https://raw.githubusercontent.com/adityamahendrraa/mulaiberusaha.github.io/036c7985e0663158276084e320c9cca6fe08fc66/LOGO%20SAMPING.png" width="400" alt="BCW Logo"></a></p>
 
 ## About PT. BRAVO CREATIVE WORKS
@@ -16,17 +14,10 @@ Di PT Bravo Creative Works, kami tidak hanya mengerjakan proyek, tapi kami menci
 
 ## About This Project
 
-Sistem Informasi Inventaris Sekolah
+Sistem Informasi PPDB Sekolah
 
-Proyek ini merupakan pengembangan website sistem informasi inventaris sekolah yang dirancang untuk meningkatkan efisiensi dan akurasi dalam pengelolaan aset sekolah. Website ini dilengkapi dengan berbagai fitur canggih dan mudah digunakan, yang dirancang khusus untuk memenuhi kebutuhan manajemen inventaris sekolah.
+Proyek ini merupakan pengembangan website sistem informasi PPDB (Penerimaan Peserta Didik Baru) sekolah yang dirancang untuk meningkatkan efisiensi dan akurasi dalam proses penerimaan siswa baru. Website ini dilengkapi dengan berbagai fitur canggih dan mudah digunakan, yang dirancang khusus untuk memenuhi kebutuhan manajemen PPDB sekolah.
 
-Fitur utama dari sistem ini adalah login multi user yang terdiri dari dua level akses, yaitu AdminSuper dan Admin. AdminSuper memiliki hak akses penuh untuk mengelola seluruh aspek sistem, termasuk pembuatan akun admin baru. Sementara itu, Admin dapat mengakses fungsionalitas dasar sistem untuk pengelolaan inventaris harian.
+Sistem ini juga dilengkapi dengan fitur print data pendaftaran, yang memudahkan pengguna dalam mencetak formulir pendaftaran dan dokumen terkait lainnya yang diperlukan selama proses PPDB. Fitur print laporan seleksi juga tersedia untuk memfasilitasi pencetakan detail hasil seleksi peserta didik baru, memastikan semua informasi terdokumentasi dengan baik.
 
-Sistem ini juga dilengkapi dengan fitur print data inventaris, yang memudahkan pengguna dalam mencetak informasi terkait aset sekolah, seperti jumlah, kondisi, dan lokasi aset. Fitur print data peminjaman juga tersedia untuk memfasilitasi pencetakan detail peminjaman aset oleh siswa atau staf sekolah, memastikan semua transaksi terdokumentasi dengan baik.
-
-Selain itu, sistem ini menawarkan fitur pembuatan akun admin oleh AdminSuper. Fitur ini memungkinkan AdminSuper untuk menambah atau mengelola akun admin lainnya, sehingga memudahkan delegasi tugas dan pengelolaan sistem secara keseluruhan.
-
-Fitur perubahan password user juga hadir untuk meningkatkan keamanan data. Pengguna dapat dengan mudah mengubah kata sandi mereka untuk menjaga keamanan akun dan melindungi informasi sensitif.
-
-Dengan desain yang intuitif dan antarmuka pengguna yang ramah, sistem informasi inventaris sekolah ini tidak hanya meningkatkan efektivitas pengelolaan aset sekolah, tetapi juga memberikan kemudahan dan keamanan bagi para penggunanya. Proyek ini mencerminkan komitmen kami untuk menyediakan solusi teknologi yang praktis dan inovatif dalam dunia pendidikan.
->>>>>>> 9103bba4af153360dd8ce74d7cb59c84a649271b
+Dengan desain yang intuitif dan antarmuka pengguna yang ramah, sistem informasi PPDB sekolah ini tidak hanya meningkatkan efektivitas proses penerimaan peserta didik baru, tetapi juga memberikan kemudahan dan keamanan bagi para penggunanya. Proyek ini mencerminkan komitmen kami untuk menyediakan solusi teknologi yang praktis dan inovatif dalam dunia pendidikan.
