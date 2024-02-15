@@ -24,7 +24,7 @@
                             </ul>
                         </div><br />
                         @endif
-                        {{-- {{ route('print',$ppdb->nodaftar) }} --}}
+                        {{-- {{ route('printdaftar',$ppdb->nodaftar) }} --}}
                         {{-- {{ route('store') }} --}}
                         <h4 class="card-title">Lengkapi Data Diri Anda!</h4>
                         <form method="POST" action="{{ route('lengkap') }}" enctype="multipart/form-data">

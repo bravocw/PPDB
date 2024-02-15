@@ -33,7 +33,8 @@ Route::middleware('isGuest')->group(function () {
     Route::post('/login', [AuthController::class, 'auth'])->name('login.auth');
 
     // print pdf
-    Route::get('/print', [PpdbController::class, 'print'])->name('print');
+    Route::get('/printkartu', [PpdbController::class, 'printkartu'])->name('printkartu');
+    Route::get('/printdaftar', [PpdbController::class, 'printdaftar'])->name('printdaftar');
 });
 
 // logout
@@ -42,20 +43,23 @@ Route::get('/logout', [PpdbController::class, 'logout'])->name('logout');
 //halaman setelah login admin
 
 Route::middleware('isLogin', 'CekRole:admin')->group(function () {
-    Route::get('/print', [PpdbController::class, 'print'])->name('print');
+    Route::get('/printdaftar', [PpdbController::class, 'printdaftar'])->name('printdaftar');
+    Route::get('/printkartu', [PpdbController::class, 'printkartu'])->name('printkartu');
     Route::get('admin/dashboard', [PpdbController::class, 'dashboard'])->name('dashboard');
     Route::get('/dashboard/users', [PpdbController::class, 'users'])->name('dashboard.users');
 });
 
 //halaman setelah login user
 Route::middleware('isLogin', 'CekRole:user')->prefix('/dashboard')->name('dashboard.')->group(function () {
-    Route::get('/print', [PpdbController::class, 'print'])->name('print');
+    Route::get('/printdaftar', [PpdbController::class, 'printdaftar'])->name('printdaftar');
+    Route::get('/printkartu', [PpdbController::class, 'printkartu'])->name('printkartu');
     Route::get('siswa/dashboard', [PpdbController::class, 'dashboard'])->name('dashboard');
 });
 
 // halaman setelah login admin dan user
 Route::middleware(['isLogin', 'CekRole:admin,user'])->group(function () {
-    Route::get('/print', [PpdbController::class, 'print'])->name('print');
+    Route::get('/printdaftar', [PpdbController::class, 'printdaftar'])->name('printdaftar');
+    Route::get('/printkartu', [PpdbController::class, 'printkartu'])->name('printkartu');
     Route::get('/dashboard', [PpdbController::class, 'dashboard'])->name('dashboard');
     Route::get('/dashboard/setting', [PpdbController::class, 'setting'])->name('dashboard.setting');
     Route::get('/dashboard/setting/upload', [PpdbController::class, 'settingUpload'])->name('dashboard.setting.upload');

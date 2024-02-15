@@ -227,14 +227,21 @@ class PpdbController extends Controller
             'status' => 1,
         ]);
 
-        return redirect()->route('print')->with('success', 'Data pendaftaran siswa berhasil dibuat!');
+        return redirect()->route('printdaftar')->with('success', 'Data pendaftaran siswa berhasil dibuat!');
     }
 
-    public function print()
+    public function printdaftar()
     {
         $item = Ppdbs::where('s_namalengkap', Auth::user()->nama)->first();
 
-        return view('ppdb.print', compact('item'));
+        return view('ppdb.printdaftar', compact('item'));
+    }
+
+    public function printkartu()
+    {
+        $item = Ppdbs::where('s_namalengkap', Auth::user()->nama)->first();
+
+        return view('ppdb.printkartu', compact('item'));
     }
 
     /**

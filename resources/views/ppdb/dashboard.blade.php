@@ -98,7 +98,7 @@
                                 <div class="card-body d-flex flex-column justify-content-left">
                                     <br>
 
-                                    <a href="/print" type="button" class="btn btn-info" href><br>
+                                    <a href="/printkartu" type="button" class="btn btn-info" href><br>
                                         <h3>Download Kartu Ujian!</h3><br>
                                     </a>
                                     </a>

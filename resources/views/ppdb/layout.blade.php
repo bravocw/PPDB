@@ -36,7 +36,7 @@
                 <ul class="navbar-nav mr-lg-2">
                     <li class="nav-item nav-profile dropdown">
                         <a class="nav-link" href="#" data-toggle="dropdown" id="profileDropdown">
-                            <img src="/assets/ppdb/images/faces/face5.jpg" alt="profile" />
+                            <img src="{{asset('assets/img/users/'.Auth::user()->image_profile)}}" alt="profile" />
                             <span class="nav-profile-name">{{ Auth::user()->nama }}</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
@@ -92,12 +92,6 @@
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/dashboard">
-                            <i class="typcn typcn-device-desktop menu-icon"></i>
-                            <span class="menu-title">Pengumuman</span>
-                        </a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/dashboard/siswa">
                             <i class="typcn typcn-device-desktop menu-icon"></i>
@@ -108,24 +102,6 @@
                         <a class="nav-link" href="/dashboard/siswa">
                             <i class="typcn typcn-device-desktop menu-icon"></i>
                             <span class="menu-title">Daftar Siswa Baru</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">
-                            <i class="typcn typcn-device-desktop menu-icon"></i>
-                            <span class="menu-title">Data Guru</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">
-                            <i class="typcn typcn-device-desktop menu-icon"></i>
-                            <span class="menu-title">Data Tendik</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">
-                            <i class="typcn typcn-device-desktop menu-icon"></i>
-                            <span class="menu-title">Inventaris</span>
                         </a>
                     </li>
                 </ul>
